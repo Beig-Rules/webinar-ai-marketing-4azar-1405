@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>وبینار هوش مصنوعی در بازاریابی دیجیتال | ۴ آذر ۱۴۰۵</title>
+<meta name="description" content="وبینار رایگان هوش مصنوعی برای بازاریابان ایرانی">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root { --bg: #F4F4F2; --surface: #FFFFFF; --inverse: #0A0A0A; --text: #0A0A0A; --muted: #6B6B6B; --stroke: #E2E2E0; --font-fa: "Vazirmatn", system-ui, sans-serif; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-fa); background: var(--bg); color: var(--text); line-height: 1.7; }
+.container { max-width: 980px; margin: 0 auto; padding: 2rem 1.25rem; }
+header { text-align: center; padding: 3rem 0 2rem; border-bottom: 1px solid var(--stroke); margin-bottom: 3rem; }
+h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 700; margin-bottom: 0.75rem; }
+.subtitle { color: var(--muted); font-size: 1.1rem; max-width: 620px; margin: 0 auto 1.5rem; }
+.badge { display: inline-block; background: var(--inverse); color: #F4F4F2; padding: 0.4rem 1rem; border-radius: 999px; font-size: 0.85rem; }
+.btn { display: inline-block; background: var(--inverse); color: #F4F4F2; padding: 0.85rem 2rem; text-decoration: none; border-radius: 8px; font-weight: 600; margin: 0.5rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+.card { background: var(--surface); border: 1px solid var(--stroke); padding: 1.5rem; border-radius: 12px; }
+.agenda li { padding: 0.85rem 0; border-bottom: 1px solid var(--stroke); }
+form { background: var(--surface); padding: 2rem; border: 1px solid var(--stroke); border-radius: 12px; max-width: 480px; margin: 2rem auto; }
+input { width: 100%; padding: 0.75rem; border: 1px solid var(--stroke); border-radius: 6px; margin-bottom: 1rem; font-family: inherit; }
+footer { text-align: center; padding: 2rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="badge">وبینار رایگان • ۴ آذر ۱۴۰۵</div>
+    <h1>هوش مصنوعی در بازاریابی دیجیتال</h1>
+    <p class="subtitle">یاد بگیرید چطور با ابزارهای AI نرخ تبدیل کمپین‌هایتان را دو برابر کنید.</p>
+    <a href="#register" class="btn">ثبت‌نام رایگان</a>
+  </header>
+  <section>
+    <h2>چرا این وبینار؟</h2>
+    <div class="grid">
+      <div class="card"><h3>ابزارهای واقعی</h3><p>نمایش زنده ChatGPT و ابزارهای فارسی.</p></div>
+      <div class="card"><h3>کیس‌های ایرانی</h3><p>نمونه‌های موفق کسب‌وکارهای محلی.</p></div>
+      <div class="card"><h3>پرسش و پاسخ</h3><p>فرصت مستقیم پرسیدن سوال.</p></div>
+    </div>
+  </section>
+  <section id="register">
+    <h2 style="text-align:center;">ثبت‌نام</h2>
+    <form onsubmit="event.preventDefault();alert('ثبت‌نام موفق');">
+      <input type="text" required placeholder="نام">
+      <input type="email" required placeholder="ایمیل">
+      <button type="submit" class="btn" style="width:100%;">ثبت‌نام</button>
+    </form>
+  </section>
+  <footer>استودیو رشد دیجیتال • Minimal Mono • Beig-Rules</footer>
+</div>
+</body>
+</html>
